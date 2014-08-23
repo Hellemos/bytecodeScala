@@ -1,0 +1,33 @@
+package TesteVariavel;
+
+public final class TesteVariavel$ {
+
+    /* compiled from TesteVariavel.scala */
+
+    /* attribute */
+    /* Scala */
+
+    public final static TesteVariavel$ MODULE$;
+
+    public static {
+        0 new 2;
+        3 invokespecial 12;       /* TesteVariavel$() */
+        6 return;
+    }
+
+    public void main(java.lang.String[] numero) {
+        /* L4 */
+        0 bipush 12;
+        2 istore_2;               /* numero */
+        3 return;
+    }
+
+    private TesteVariavel$() {
+        /* L1 */
+        0 aload_0;                /* this */
+        1 invokespecial 20;       /* java.lang.Object() */
+        4 aload_0;                /* this */
+        5 putstatic 22;           /* TesteVariavel$.MODULE$ */
+        8 return;
+    }
+}

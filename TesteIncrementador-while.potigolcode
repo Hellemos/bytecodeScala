@@ -1,0 +1,54 @@
+package TesteIncrementador;
+
+public final class TesteIncrementador$ {
+
+    /* compiled from TesteIncrementador.scala */
+
+    /* attribute */
+    /* Scala */
+
+    public final static TesteIncrementador$ MODULE$;
+
+    public static {
+        0 new 2;
+        3 invokespecial 12;       /* TesteIncrementador$() */
+        6 return;
+    }
+
+    public void main(java.lang.String[] numero) {
+        /* L4 */
+        0 getstatic 19;           /* scala.Predef$.MODULE$ */
+        3 ldc 21;                 /* "Digite um numero: " */
+        5 invokevirtual 25;       /* void println(java.lang.Object numero) */
+        /* L5 */
+        8 getstatic 19;           /* scala.Predef$.MODULE$ */
+        11 invokevirtual 29;      /* int readInt() */
+        14 istore_2;              /* numero */
+        /* L6 */
+        15 iload_2;               /* numero */
+        16 bipush 10;
+        18 if_icmpge 20;
+        /* L7 */
+        21 iload_2;               /* numero */
+        22 iconst_1;
+        23 iadd;
+        24 istore_2;              /* numero */
+        /* L8 */
+        25 getstatic 19;          /* scala.Predef$.MODULE$ */
+        28 iload_2;               /* numero */
+        29 invokestatic 35;       /* java.lang.Integer scala.runtime.BoxesRunTime.boxToInteger(int numero) */
+        32 invokevirtual 25;      /* void println(java.lang.Object numero) */
+        35 goto -20;
+        /* L3 */
+        38 return;
+    }
+
+    private TesteIncrementador$() {
+        /* L1 */
+        0 aload_0;                /* this */
+        1 invokespecial 41;       /* java.lang.Object() */
+        4 aload_0;                /* this */
+        5 putstatic 43;           /* TesteIncrementador$.MODULE$ */
+        8 return;
+    }
+}

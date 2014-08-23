@@ -1,0 +1,33 @@
+package TesteConstante;
+
+public final class TesteConstante$ {
+
+    /* compiled from TesteConstante.scala */
+
+    /* attribute */
+    /* Scala */
+
+    public final static TesteConstante$ MODULE$;
+
+    public static {
+        0 new 2;
+        3 invokespecial 12;       /* TesteConstante$() */
+        6 return;
+    }
+
+    public void main(java.lang.String[] PI) {
+        /* L4 */
+        0 ldc2_w 15;              /* 3.14 */
+        3 dstore_2;               /* PI */
+        4 return;
+    }
+
+    private TesteConstante$() {
+        /* L1 */
+        0 aload_0;                /* this */
+        1 invokespecial 22;       /* java.lang.Object() */
+        4 aload_0;                /* this */
+        5 putstatic 24;           /* TesteConstante$.MODULE$ */
+        8 return;
+    }
+}

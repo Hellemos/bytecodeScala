@@ -1,0 +1,85 @@
+package TesteForrArray;
+
+public final class TesteForrArray$ {
+
+    /* compiled from TesteForrArray.scala */
+
+    /* attribute */
+    /* Scala */
+
+    /* inner class */
+    /* public static null */
+
+    public final static TesteForrArray$ MODULE$;
+
+    public static {
+        0 new 2;
+        3 invokespecial 12;       /* TesteForrArray$() */
+        6 return;
+    }
+
+    public void main(java.lang.String[] a) {
+        /* L4 */
+        0 bipush 10;
+        2 newarray 10;            /* new int[] */
+        4 dup;
+        5 iconst_0;
+        6 iconst_1;
+        7 iastore;
+        8 dup;
+        9 iconst_1;
+        10 iconst_2;
+        11 iastore;
+        12 dup;
+        13 iconst_2;
+        14 iconst_3;
+        15 iastore;
+        16 dup;
+        17 iconst_3;
+        18 iconst_4;
+        19 iastore;
+        20 dup;
+        21 iconst_4;
+        22 iconst_5;
+        23 iastore;
+        24 dup;
+        25 iconst_5;
+        26 bipush 6;
+        28 iastore;
+        29 dup;
+        30 bipush 6;
+        32 bipush 7;
+        34 iastore;
+        35 dup;
+        36 bipush 7;
+        38 bipush 8;
+        40 iastore;
+        41 dup;
+        42 bipush 8;
+        44 bipush 9;
+        46 iastore;
+        47 dup;
+        48 bipush 9;
+        50 bipush 10;
+        52 iastore;
+        53 astore_2;              /* a */
+        /* L5 */
+        54 getstatic 19;          /* scala.Predef$.MODULE$ */
+        57 aload_2;               /* a */
+        58 invokevirtual 23;      /* scala.collection.mutable.ArrayOps intArrayOps(int[] a) */
+        61 new 25;
+        64 dup;
+        65 invokespecial 26;      /* TesteForrArray$$anonfun$main$1() */
+        68 invokeinterface 32 2;  /* void foreach(scala.Function1 a) */
+        73 return;
+    }
+
+    private TesteForrArray$() {
+        /* L1 */
+        0 aload_0;                /* this */
+        1 invokespecial 38;       /* java.lang.Object() */
+        4 aload_0;                /* this */
+        5 putstatic 40;           /* TesteForrArray$.MODULE$ */
+        8 return;
+    }
+}

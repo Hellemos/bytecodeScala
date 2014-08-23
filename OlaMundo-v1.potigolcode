@@ -1,0 +1,27 @@
+
+package OlaMundo;
+
+public final class OlaMundo$ {
+
+    /* compiled from OlaMundo.scala */
+
+    /* attribute */
+    /* Scala */
+
+    public final static OlaMundo$ MODULE$;
+
+    public static {
+        0 new 2;
+        3 invokespecial 12;       /* OlaMundo$() */
+        6 return;
+    }
+
+    private OlaMundo$() {
+        /* L1 */
+        0 aload_0;                /* this */
+        1 invokespecial 13;       /* java.lang.Object() */
+        4 aload_0;                /* this */
+        5 putstatic 15;           /* OlaMundo$.MODULE$ */
+        8 return;
+    }
+}

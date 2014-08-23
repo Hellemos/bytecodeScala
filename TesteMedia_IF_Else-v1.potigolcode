@@ -1,0 +1,36 @@
+package TesteMedia_IF_Else;
+
+public final class TesteMedia_IF_Else$ {
+
+    /* compiled from TesteMedia_IF_Else.scala */
+
+    /* attribute */
+    /* Scala */
+
+    public final static TesteMedia_IF_Else$ MODULE$;
+
+    public static {
+        0 new 2;
+        3 invokespecial 12;       /* TesteMedia_IF_Else$() */
+        6 return;
+    }
+
+    public void main(java.lang.String[] n1) {
+        /* L4 */
+        0 ldc2_w 15;              /* 9.0 */
+        3 dstore_2;               /* n1 */
+        /* L5 */
+        4 ldc2_w 17;              /* 8.0 */
+        7 dstore 4;               /* n2 */
+        9 return;
+    }
+
+    private TesteMedia_IF_Else$() {
+        /* L1 */
+        0 aload_0;                /* this */
+        1 invokespecial 25;       /* java.lang.Object() */
+        4 aload_0;                /* this */
+        5 putstatic 27;           /* TesteMedia_IF_Else$.MODULE$ */
+        8 return;
+    }
+}

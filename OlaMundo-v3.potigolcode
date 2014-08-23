@@ -1,0 +1,34 @@
+package OlaMundo;
+
+public final class OlaMundo$ {
+
+    /* compiled from OlaMundo.scala */
+
+    /* attribute */
+    /* Scala */
+
+    public final static OlaMundo$ MODULE$;
+
+    public static {
+        0 new 2;
+        3 invokespecial 12;       /* OlaMundo$() */
+        6 return;
+    }
+
+    public void main(java.lang.String[] arg0) {
+        /* L3 */
+        0 getstatic 19;           /* scala.Predef$.MODULE$ */
+        3 ldc 21;                 /* "Ol\u00e1, Mundo!" */
+        5 invokevirtual 25;       /* void println(java.lang.Object arg0) */
+        8 return;
+    }
+
+    private OlaMundo$() {
+        /* L1 */
+        0 aload_0;                /* this */
+        1 invokespecial 29;       /* java.lang.Object() */
+        4 aload_0;                /* this */
+        5 putstatic 31;           /* OlaMundo$.MODULE$ */
+        8 return;
+    }
+}
